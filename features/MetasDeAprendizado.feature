@@ -19,3 +19,9 @@ Scenario: Inserir uma meta não cadastrada
 
 Adiciona uma linha (main)
 
+Scenario:  Aviso de remover única meta da turma
+    Given Estou na página de metas
+    And possui apenas a meta  ‘elicitação’
+    When tento remover elicitação
+    Then Aparece um aviso na tela “essa é a única meta da turma, tem certeza que deseja excluir?”
+

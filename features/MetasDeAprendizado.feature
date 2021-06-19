@@ -26,3 +26,9 @@ Scenario: Aviso de remover meta com avaliações
     When tento remover essa meta
     Then Aparece um aviso na tela “essa meta já foi avaliada, tem certeza que deseja excluir?”
 
+Scenario:  Aviso de remover única meta da turma
+    Given Estou na página de metas
+    And possui apenas a meta  ‘elicitação’
+    When tento remover elicitação
+    Then Aparece um aviso na tela “essa é a única meta da turma, tem certeza que deseja excluir?”
+

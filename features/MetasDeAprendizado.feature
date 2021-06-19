@@ -18,3 +18,4 @@ Scenario: Inserir uma meta não cadastrada
     Then eu vejo página de "metas de aprendizados" com a meta "Gerência de configuração" na turma "Engenharia de Software e Sistemas"
 
 Adiciona uma linha (main)
+

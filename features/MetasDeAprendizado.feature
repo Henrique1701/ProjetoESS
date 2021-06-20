@@ -25,3 +25,4 @@ Scenario:  Aviso de remover única meta da turma
     When tento remover elicitação
     Then Aparece um aviso na tela “essa é a única meta da turma, tem certeza que deseja excluir?”
 
+Adiciona uma linha

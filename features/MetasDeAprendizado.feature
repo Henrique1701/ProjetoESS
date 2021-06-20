@@ -16,4 +16,3 @@ Scenario: Inserir uma meta não cadastrada
     And não existe uma meta cadastrada com o nome "Gerência de configuração"na turma "Engenharia de Software e Sistemas"
     When eu tenho "inserir" uma nova meta com "Gerência de configuração" na turma "Engenharia de Software e Sistemas"
     Then eu vejo página de "metas de aprendizados" com a meta "Gerência de configuração" na turma "Engenharia de Software e Sistemas"
-    And volto para página de "metas de aprendizados"
